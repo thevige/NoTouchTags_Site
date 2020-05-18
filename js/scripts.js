@@ -149,11 +149,6 @@ $(document).ready(function () {
     $(this).toggleClass('toggle-widget-handle');
   });
 
-  $('.search-widget-handle .search-form input').click(function (e) {
-    if (!e) e = window.event;
-    e.stopPropagation();
-  });
-
   // Offscreen Nav
 
   if ($('.offscreen-toggle').length) {
@@ -652,59 +647,6 @@ $(document).ready(function () {
     });
   }
 
-  $('.validate-required, .validate-email').on('blur change', function () {
-    validateFields($(this).closest('form'));
-  });
-
-  $('form').each(function () {
-    if ($(this).find('.form-error').length) {
-      $(this).attr('original-error', $(this).find('.form-error').text());
-    }
-  });
-
-  function validateFields(form) {
-    var name, error, originalErrorMessage;
-
-    $(form)
-      .find('.validate-required[type="checkbox"]')
-      .each(function () {
-        if (!$('[name="' + $(this).attr('name') + '"]:checked').length) {
-          error = 1;
-          name = $(this).attr('name').replace('[]', '');
-          form
-            .find('.form-error')
-            .text('Please tick at least one ' + name + ' box.');
-        }
-      });
-
-    $(form)
-      .find('.validate-required')
-      .each(function () {
-        if ($(this).val() === '') {
-          $(this).addClass('field-error');
-          error = 1;
-        } else {
-          $(this).removeClass('field-error');
-        }
-      });
-
-    $(form)
-      .find('.validate-email')
-      .each(function () {
-        if (!/(.+)@(.+){2,}\.(.+){2,}/.test($(this).val())) {
-          $(this).addClass('field-error');
-          error = 1;
-        } else {
-          $(this).removeClass('field-error');
-        }
-      });
-
-    if (!form.find('.field-error').length) {
-      form.find('.form-error').fadeOut(1000);
-    }
-
-    return error;
-  }
 
   //
   //
@@ -1157,39 +1099,6 @@ initializeMaps();
 
 // End of Maps
 
-// Prepare Signup Form - It is used to retrieve form details from an iframe Mail Chimp or Campaign Monitor form.
-
-function prepareSignup(iFrame) {
-  var form = jQuery('<form />'),
-    action = iFrame.contents().find('form').attr('action');
-
-  // Alter action for a Mail Chimp-compatible ajax request url.
-  if (/list-manage\.com/.test(action)) {
-    action = action.replace('/post?', '/post-json?') + '&c=?';
-    if (action.substr(0, 2) == '//') {
-      action = 'http:' + action;
-    }
-  }
-
-  // Alter action for a Campaign Monitor-compatible ajax request url.
-  if (/createsend\.com/.test(action)) {
-    action = action + '?callback=?';
-  }
-
-  // Set action on the form
-  form.attr('action', action);
-
-  // Clone form input fields from
-  iFrame
-    .contents()
-    .find('input, select, textarea')
-    .not('input[type="submit"]')
-    .each(function () {
-      $(this).clone().appendTo(form);
-    });
-
-  return form;
-}
 
 var mr_cookies = {
   getItem: function (sKey) {
