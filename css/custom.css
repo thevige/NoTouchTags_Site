@@ -6,6 +6,11 @@
   justify-content: center;
 }
 
+.bordered img {
+  animation: fadeInDown;
+  animation-duration: 1s;
+}
+
 @media all and (max-width: 415px) {
   .signup-container {
     padding: 0px !important;
@@ -30,6 +35,10 @@ h3.title {
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 5px;
+  animation: fadeIn;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
 }
 
 @media all and (max-width: 415px) {
@@ -44,12 +53,20 @@ h3.title {
 
 h3.subtitle {
   font-weight: 500;
+  animation: fadeIn;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
 }
 
 p.signup-description {
   font-size: 20px !important;
   font-weight: bold;
   line-height: 32px !important;
+  animation: fadeIn;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
 }
 
 @media all and (max-width: 415px) {
@@ -63,6 +80,10 @@ p.disclaimer {
   margin-bottom: 0px !important;
   margin-top: 0px !important;
   font-size: 14px !important;
+  animation: fadeIn;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
 }
 
 @media all and (max-width: 415px) {
@@ -89,20 +110,9 @@ p.disclaimer {
   font-size: 18px;
   border-radius: 0;
   margin-left: 0px !important;
+  animation: fadeInLeft;
+  animation-duration: 1s;
 }
-
-/* .form-newsletter input[type="submit"] {
-  height: 50px;
-  line-height: 48px;
-  border: 2px solid #299857;
-  background: #299857;
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 0 !important;
-} */
 
 .form-newsletter button[type="submit"] {
   height: 50px;
@@ -115,6 +125,8 @@ p.disclaimer {
   font-weight: bold;
   letter-spacing: 1px;
   border-radius: 0 !important;
+  animation: fadeInRight;
+  animation-duration: 1s;
 }
 
 @media all and (max-width: 768px) {
@@ -134,19 +146,6 @@ p.disclaimer {
     border-radius: 0;
     margin-left: 0px !important;
   }
-  
-  /* .form-newsletter input[type="submit"] {
-    height: 50px;
-    line-height: 48px;
-    border: 2px solid #299857;
-    background: #299857;
-    color: #fff;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border-radius: 0 !important;
-  } */
   
   .form-newsletter button[type="submit"] {
     height: 50px;
