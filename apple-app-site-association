@@ -1,7 +1,7 @@
 {
 {
 	"appclips": {
-		"apps": [1509793292.com.hillsidesoftware.notouchtags.Clip]
+		"apps": [1509793292.com.hillsidesoftware.notouchtags.appclip]
 	},
 	"applinks": {
     		"apps": [],
@@ -15,10 +15,10 @@
     		]
   	},
 	"activitycontinuation": {
-		"apps": [1509793292.com.hillsidesoftware.notouchtags.Clip]
+		"apps": [1509793292.com.hillsidesoftware.notouchtags.appclip]
 	},
 	"webcredentials": {
-		"apps": [1509793292.com.hillsidesoftware.notouchtags.Clip]
+		"apps": [1509793292.com.hillsidesoftware.notouchtags.appclip]
 	},
 }
 
