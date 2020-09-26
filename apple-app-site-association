@@ -1,7 +1,11 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
+  
+	"appclips": {
+		"apps": [23SHQRRK77.com.hillsidesoftware.notouchtags.Clip]
+	},
+	"applinks": {
+    	"apps": [],
+    	"details": [
       {
         "appID":  "QT5MQ7KPJH.com.hillsidesoftware.artworks4me",
         "paths": [
