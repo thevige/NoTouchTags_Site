@@ -2,8 +2,9 @@
 {
 
 	"appclips": {
-        	"apps": [ "QT5MQ7KPJH.com.hillsidesoftware.notouchtags.Clip" ]
-    		},
+
+        	"apps": ["QT5MQ7KPJH.com.hillsidesoftware.notouchtags.Clip"]
+    			},
 
 	"applinks": {
     		"apps": [],
