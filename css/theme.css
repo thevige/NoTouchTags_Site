@@ -401,7 +401,7 @@ h6.uppercase,
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -700,7 +700,7 @@ footer.bg-dark li,
 .parallax .slides li > .background-image-holder {
   height: 100vh;
   top: -50vh;
-  transition: all 0s ease !important;
+  /* transition: all 0s ease !important; */
   transition: opacity 0.3s ease !important;
   -webkit-transform-style: preserve-3d;
 }
@@ -1558,7 +1558,7 @@ nav.transparent.fixed .module.widget-handle i {
   color: #292929;
 }
 nav.transparent.fixed .menu > .has-dropdown:after {
-  color: #fff;
+  /* color: #fff; */
   color: #292929;
 }
 nav.transparent.fixed .module.widget-handle {
@@ -2149,7 +2149,7 @@ button[type="submit"] .form-loading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2264,7 +2264,7 @@ button[type="submit"] .form-loading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2352,7 +2352,7 @@ button[type="submit"] .form-loading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2431,7 +2431,7 @@ button[type="submit"] .form-loading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2480,11 +2480,11 @@ button[type="submit"] .form-loading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  font-size: 11px;
+  /* font-size: 11px; */
 }
 .progress-2 {
   height: auto;
@@ -2496,7 +2496,7 @@ button[type="submit"] .form-loading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2538,12 +2538,12 @@ button[type="submit"] .form-loading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  font-size: 11px;
-  font-weight: 600;
+  /* font-size: 11px; */
+  /* font-weight: 600; */
 }
 .breadcrumb-2 > li + li:before {
   padding: 0 16px;
@@ -2918,7 +2918,7 @@ button[type="submit"] .form-loading {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 400;
+  /* font-weight: 400; */
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -3191,7 +3191,7 @@ img {
   -webkit-transform: translate3d(0, -50%, 0);
   top: 50%;
   z-index: 2;
-  position: absolute;
+  /* position: absolute; */
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -4504,19 +4504,19 @@ video {
 }
 .filters li {
   float: left;
-  margin-right: 32px;
+  /* margin-right: 32px; */
   cursor: pointer;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   border: 2px solid #299857;
   padding: 0 26px;
-  height: 40px;
+  /* height: 40px; */
   min-width: 150px;
   line-height: 36px;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-radius: 0;
+  /* border-radius: 0; */
   color: #299857;
   text-align: center;
   transition: all 0.3s ease;
@@ -4525,9 +4525,9 @@ video {
   margin-right: 8px;
   margin-bottom: 24px;
   height: 30px;
-  font-size: 11px;
-  line-height: 27px;
-  min-width: 0;
+  /* font-size: 11px; */
+  /* line-height: 27px; */
+  /* min-width: 0; */
   border-color: rgba(255, 255, 255, 0);
   opacity: .7;
   border-radius: 25px;
@@ -4657,8 +4657,8 @@ video {
   font-size: 80px;
   line-height: 88px;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 56px;
-  line-height: 64px;
+  /* font-size: 56px; */
+  /* line-height: 64px; */
   font-weight: 100;
   text-transform: uppercase;
 }
